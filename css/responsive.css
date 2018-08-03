@@ -1,0 +1,112 @@
+/*
+ *
+ * Rules for adjusting the overall display
+ *
+ */
+
+@media screen and (min-width: 1200px) {
+  body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/*
+ *
+ * Rules for adjusting the header font sizes
+ *
+ */
+
+@media screen and (min-width: 400px) {
+  .header__title {
+    font-size: 4em;
+  }
+
+  .header__content {
+    font-size: 3em;
+  }
+}
+
+
+/*
+ *
+ * Rules for adjusting the featured work section
+ *
+ */
+
+/* Switch from single column to single row when the screen is wide enough */
+@media screen and (min-width: 700px) {
+  .featured__work1, .featured__work2, .featured__work3 {
+    width: 33%;
+    border-bottom: 0px;
+  }
+}
+
+/* Adjust font sizes */
+@media screen and (min-width: 600px) {
+  .featured__work__title {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 699px) {
+  .project__label {
+    font-size: 2em;
+  }
+
+  .project__link {
+    font-size: 1.2em;
+  }
+
+  .project__description {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .project__label {
+    font-size: 1.8em;
+  }
+
+  .project__link {
+    font-size: 0.8em;
+  }
+
+  .project__description {
+    font-size: 1.5em;
+  }
+}
+
+
+/*
+ *
+ * Rules for adjusting the footer font size and spacing
+ *
+ */
+
+@media screen and (min-width: 345px) {
+  footer li {
+    margin: 0 0.5em;
+    padding: 0 1em 1em;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 479px) {
+  footer li {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  footer li {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  footer li {
+    font-size: 1.2em;
+  }
+}

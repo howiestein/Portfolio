@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Howie Stein's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__top">
+          <!-- TODO: replace with more polished logo as I build my brand -->
+          <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Howie Stein logo">
+          </a>
+          <h1 class="header__title">Howie Stein</h1>
+        </div>
+        <div class="header__content">
+          <p>Web Design</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="photo">
+        <img src="img/main.jpg" alt="Screenshot of CSS">
+      </div>
+
+      <h2 class="featured__work__title">Featured Work</h2>
+
+      <div class="featured__work">
+        <section class="featured__work1">
+          <img class="project__photo" src="img/featured1.jpg" alt="Screenshot of Brighton News">
+          <h3 class="project__label">Brighton News</h3>
+          <a class="project__link" href="http://github.com/howiestein/BrightonNews">http://github.com/howiestein/BrightonNews</a>
+          <p class="project__description">An example demonstrating responsive Web page design. The elements on the page are rearranged based on the screen width for suitable display on a variety of devices.</p>
+        </section>
+
+        <section class="featured__work2">
+          <img class="project__photo" src="img/featured2.jpg" alt="Screenshot of Pixel Art Maker">
+          <h3 class="project__label">Pixel Art Maker</h3>
+          <a class="project__link" href="http://github.com/howiestein/pixelartmaker-expanded">http://github.com/howiestein/pixelartmaker-expanded</a>
+          <p class="project__description">A JavaScript page that allows the user to draw simple pictures.</p>
+        </section>
+
+        <section class="featured__work3">
+          <img class="project__photo" src="img/featured3.jpg" alt="Photo of a rabbit">
+          <h3 class="project__label">Photo Gallery</h3>
+          <a class="project__link" href="gallery.html">gallery.html</a>
+          <p class="project__description">A collection of my photographs.</p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="mailto:hss4@cornell.edu">Contact me</a></li>
+        <li><a href="http://www.linkedin.com/in/RabbiHowieStein">Connect with me on LinkedIn</a></li>
+        <li class="right"><script>generateCopyright();</script></li>
+      </ul>
+    </footer>
+  </body>
+</html>

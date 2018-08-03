@@ -1,0 +1,134 @@
+<!doctype html>
+<!-- TODO: create template to not replicate the page header and footer across multiple files -->
+<!-- This includes separating the header and footer CSS rules into a separate file -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Howie Stein's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__top">
+          <!-- TODO: replace with more polished logo as I build my brand -->
+          <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Howie Stein logo">
+          </a>
+          <h1 class="header__title">Howie Stein</h1>
+        </div>
+        <div class="header__content">
+          <p>Web Design</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="gallery__title">Photo Gallery</h2>
+      <p class="center">All images copyright by Howard S. Stein</p>
+
+      <div class="gallery__container">
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery01.jpg" alt="Gulls">
+          <figcaption>Gulls fighting</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery02.jpg" alt="Tern">
+          <figcaption>Royal tern 1</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery03.jpg" alt="Tern">
+          <figcaption>Royal tern 2</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery04.jpg" alt="Sunset">
+          <figcaption>Sunset 1</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery05.jpg" alt="Sunset">
+          <figcaption>Sunset 2</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery06.jpg" alt="Flower">
+          <figcaption>White flower</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery07.jpg" alt="Sparrow">
+          <figcaption>Song sparrow</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery08.jpg" alt="Rose">
+          <figcaption>Beach rose</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery09.jpg" alt="Rabbit">
+          <figcaption>Rabbit</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery10.jpg" alt="Willet">
+          <figcaption>Willet</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery11.jpg" alt="Goldfinch">
+          <figcaption>American goldfinch</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery12.jpg" alt="Heron">
+          <figcaption>Great blue heron</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery13.jpg" alt="Plover">
+          <figcaption>Snowy plover</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery14.jpg" alt="Restaurant">
+          <figcaption>Lobster Roll</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery15.jpg" alt="Dog">
+          <figcaption>Gulls fighting</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery16.jpg" alt="Gull flying">
+          <figcaption>Ring-billed gull flying</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery17.jpg" alt="Flower">
+          <figcaption>Deptford Pink</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery18.jpg" alt="Dragonfly">
+          <figcaption>Dragonfly</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery19.jpg" alt="House">
+          <figcaption>Salt marsh and house</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery20.jpg" alt="Seal">
+          <figcaption>Grey seal yawning</figcaption>
+        </figure>
+        <figure class="gallery__photo">
+          <img src="img/gallery/gallery21.jpg" alt="Seal">
+          <figcaption>Grey seal resting</figcaption>
+        </figure>
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="mailto:hss4@cornell.edu">Contact me</a></li>
+        <li><a href="http://www.linkedin.com/in/RabbiHowieStein">Connect with me on LinkedIn</a></li>
+        <li class="right"><script>generateCopyright();</script></li>
+      </ul>
+    </footer>
+  </body>
+</html>
